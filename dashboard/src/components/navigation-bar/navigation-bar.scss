@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navigation-bar {
+    background: #52b38b;
+    margin: 0;
+
+    li {
+        margin: .8rem;
+        padding: .8rem;
+        list-style: none;
+        display: inline-block;
+        a {
+            text-decoration: none;
+            font-size: 1.125rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+        }
+
+    }
+}

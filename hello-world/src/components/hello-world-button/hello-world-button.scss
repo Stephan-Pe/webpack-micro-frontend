@@ -1,0 +1,29 @@
+$font-size: 2rem;
+$button-background-color: blue;
+$button-font-color: white;
+$text-font-color: blue;
+$card-color: #c3c3c3;
+
+.card {
+    background: $card-color;
+    display: grid;
+    place-items: center;
+
+}
+.hello-world-button {
+    margin: 1rem auto;
+    display: block;
+    font-size: $font-size;
+    padding: 7px 15px;
+    background: $button-background-color;
+    color: $button-font-color;
+    outline: none;
+    max-width: 280px;
+}
+
+.hello-world-text {
+    color: $text-font-color;
+    font-size: $font-size/1.5;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
